@@ -1,0 +1,12 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        # Where the browser will reach the ToWork API (towork-backend).
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000/api/v1}
+    image: towork-vue:1.0.0
+    container_name: towork-vue
+    ports:
+      - '${APP_PORT:-3000}:80'
+    restart: unless-stopped
