@@ -13,12 +13,12 @@
 
 ## Screenshots
 
-> Add screenshots to `docs/screenshots/` and they will show up here.
+Light and dark themes, shown with the seeded demo account.
 
-| Today | Board |
+| Today (light) | Board (dark) |
 |---|---|
 | ![Today view](docs/screenshots/today.png) | ![Board view](docs/screenshots/board.png) |
-| **Calendar** | **Dashboard** |
+| **Calendar (light)** | **Dashboard (dark)** |
 | ![Calendar view](docs/screenshots/calendar.png) | ![Dashboard](docs/screenshots/dashboard.png) |
 
 ## Features
